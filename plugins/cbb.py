@@ -32,7 +32,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [   
                     [
-                        InlineKeyboardButton("• sᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ sᴄʀᴇᴀsʜᴏᴛ •", url=(SCREENSHOT_URL))
+                        InlineKeyboardButton("• sᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ sᴄʀᴇᴀsʜᴏᴛ •", url=(SCREENSHOT_URL)))
                     ],
                     [
                         InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data = "close")
