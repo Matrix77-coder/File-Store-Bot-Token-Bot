@@ -29,7 +29,7 @@ APP_ID = int(os.environ.get("APP_ID", "21027612"))
 #your api hash from https://my.telegram.org/apps
 API_HASH = os.environ.get("API_HASH", "b36c5dc986f77eedd4bbf356b65eab19")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002171251685"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002265797972"))
 #your database channel link
 CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
