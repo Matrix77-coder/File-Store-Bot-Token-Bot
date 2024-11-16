@@ -4,17 +4,17 @@ from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7870281605:AAG1xfvP8lSJ_0vvcZQvQIlfKThbiqoBAPs")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "21027612"))
+API_HASH = os.environ.get("API_HASH", "b36c5dc986f77eedd4bbf356b65eab19")
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002265797972"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6497757690"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6318448139"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
+DB_URI = os.environ.get("DATABASE_URL", "https://t.me/+UImoqbiLWXRhZDBl")
+DB_NAME = os.environ.get("DATABASE_NAME", "Adult_Database")
 
 #Shortner (token system) 
 
